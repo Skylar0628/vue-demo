@@ -5,10 +5,14 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint --fix"
   },
   "dependencies": {
+    "@vee-validate/i18n": "^4.15.0",
+    "@vee-validate/rules": "^4.15.0",
+    "bootstrap": "^5.3.3",
     "core-js": "^3.8.3",
+    "vee-validate": "^4.15.0",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3"
   },
